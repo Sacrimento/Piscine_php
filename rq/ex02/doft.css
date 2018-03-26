@@ -1,0 +1,151 @@
+body
+{
+    background-color: rgb(68, 68, 68);
+}
+p{
+    font-family: serif;
+}
+.oeil
+{
+    border: 3px solid red;
+}
+#rouge
+{
+    margin-top: -34px;
+    margin-left: 11px;
+    text-shadow: 8px 8px 2px red;
+}
+#ikea
+{
+    position: absolute;
+    width: 100px;
+    height: 219px;
+    margin-left: 650px;
+    margin-top: 525px;
+
+}
+#apple
+{
+    position: absolute;
+    width: 189px;
+    height: 133px;
+    margin-left: 1120px;
+    margin-top: 519px;
+
+}
+.texta
+{
+    width: 250px;
+}
+strong
+{
+    font-size: 20px;
+}
+#message{
+    box-shadow: 8px 8px 12px black;
+position: absolute;
+    padding-left: 10px;
+    padding-right: 59px;
+    padding-bottom: 30px;
+    width: 325px;
+    height: 106px;
+    margin-top: 700px;
+    margin-left: 45px;
+    background: rgb(129, 255, 129);;
+    border-radius: 5px;
+}
+#right{
+    box-shadow: 8px 8px 12px black;
+    margin-top: 180px;
+    margin-left: 1362px;
+    padding: 11px;
+    /* text-align: center; */
+    height: 465px;
+    position: absolute;
+    background-color: #909090;
+    border-radius: 5px;
+}
+#right img
+{
+    vertical-align: middle;
+    margin-left: 26px;
+    width: 85px;
+    text-align: center;
+    display: block;
+}
+
+
+#left{
+    box-shadow: 8px 8px 12px black;
+    margin-top: 180px;
+    margin-left: 103px;
+    height: 400px;
+    padding: 40px;
+    position: absolute;
+    background-color: #909090;
+    border-radius: 5px;
+}
+#brick
+{
+    width: 150;
+    height: 80px;
+    background: url(./resources/brick.jpg);
+}
+#left img
+{
+    vertical-align: middle;
+    width: 85px;
+    list-style: none;
+    margin-bottom: 3px;
+    padding: 0;
+    display: block;
+}
+.title
+{
+    width: 444px;
+    margin-left: -750px;
+    /* float: left; */
+    /* text-align: left; */
+    position: absolute;
+}
+.reload
+{
+    float: right;
+    width: 20px;
+}
+.close
+{
+    float: right;
+    margin-top: 116px;
+    margin-right: -20px;
+}
+.loupe
+{
+    margin-left: 480px;
+    margin-top: 13px;
+    position: absolute
+}
+#top{
+    box-shadow: 8px 8px 12px black;
+    margin-left: 54px;
+    margin-right: auto;
+    border-radius: 6px;
+    position: absolute;
+    text-align: center;
+    padding: 8px;
+    width: 1500px;
+    height: 129px;
+    background-color: #909090;
+}
+#center{
+    box-shadow: 8px 8px 12px black;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 180px;
+    margin-right: auto;
+    border-radius: 6px;
+    text-align: center;
+    padding: 8px;
+    width: 1030px;
+    background-color: grey
+}
