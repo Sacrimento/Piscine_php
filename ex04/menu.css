@@ -1,18 +1,19 @@
-ul ul
+ ul ul
 {
     display: none; 
     position: absolute; 
     left: 144px; 
-    top: -1px; 
-    margin:0px; 
-    padding: 0px; 
+    top: -1px;
+    margin: 0px;
+    padding: 0px;
 }
 li 
 {
     list-style-type: none;
+    text-align: center;
     position: relative;
     width: 140px;
-    border: 1px solid #e0e0e0;
+    border: 3px solid #e0e0e0;
     border-radius: 5px;
     background-color: #fbfbfb;
     padding: 2px;
@@ -22,11 +23,7 @@ li:hover
 {
     background-color: rgb(191, 208, 255);
 }
-li:hover ul.niveau2, li li:hover ul.niveau3
+li:hover ul.level2, li li:hover ul.level3,  li li:hover ul.level3bis,  li li:hover ul.level3ter
 {
-    display: block
-}
-li:hover ul.niveau2, li li:hover ul.niveau3bis
-{
-    display: block
+    display: block;
 }

@@ -1,0 +1,63 @@
+#img
+		{
+			width: 20%;
+		}
+		h1
+		{
+			font-size: 5.6vmin;
+		}
+		body
+		{
+			font-family: "Arial";
+		}
+		#header
+		{
+			text-align: center;
+		}
+		#border
+		{
+			border: solid black;
+		}
+		p
+		{
+			font-size: 1.2vmin;
+			margin: 3px;
+			text-align: center;
+		}
+		td
+		{
+			border: 2px solid white;
+			height:100%;
+            background-color: white;
+		}
+		td.all {background-color: pink;}
+		td.other {background-color: #A4A4A4;}
+		td.alca {background-color: red;}
+		td.non-metal {background-color: #00FF80;}
+		td.metallo {background-color: green;}
+		td.lantha {background-color: #DBA901;}
+		td.halo {background-color: #FFFF00;}
+		td.noble {background-color: blue;;}
+		td.unknown {background-color: #dbdad6;}
+		td.lan {background-color: #F781F3;}
+		td.acti {background-color: #FE2EC8;}
+		table
+		{
+			margin: auto;
+			border-collapse: collapse;
+			width: 100%;
+			table-layout: fixed;
+		}
+		.el
+		{
+			font-size: 2.1vmin;
+			font-weight: bold;
+		}
+		.weight
+		{
+			text-align: right;
+		}
+		.num
+		{
+			text-align: left;
+		}
