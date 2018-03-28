@@ -6,9 +6,9 @@
 	return array_values(array_filter(explode(" ", $string)));
      }
 
-     if ($argc > 1)
-     {
-	$alpha = [];
+    if ($argc > 1)
+    {
+	    $alpha = [];
      	$num = [];
      	$other = [];
     	$main = [];
@@ -23,7 +23,7 @@
 	     else if (ctype_alpha($word))
 	     	$alpha[] = $word;
 	     else
-		$other[] = $word;
+		    $other[] = $word;
 	}
 	
 	sort($num, SORT_STRING);
@@ -34,5 +34,5 @@
 
 	foreach ($alpha as $w)
 	    echo $w . "\n";
-     }
+    }
 ?>

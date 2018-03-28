@@ -9,14 +9,8 @@ while ($stdin && !feof($stdin))
 	   $nbr = str_replace("\n", "", $nbr);
 	   if (is_numeric($nbr))
 	   {
-			echo "Le chiffre " . $nbr . " est ";
-			if ($nbr % 2) {
-		   	   echo "Impair";
-			}
-			else {
-		   	     echo "Pair";
-			}
-	   } else {echo "'" . "$nbr" . "'" . " n'est pas un nombre !";}
+			echo "Le chiffre " . $nbr . " est " . ($nbr % 2 ? "Impair" : "Pair");
+	   } else {echo "'" . "$nbr" . "'" . " n'est pas un chiffre";}
 	   echo "\n";
 	}
 }
