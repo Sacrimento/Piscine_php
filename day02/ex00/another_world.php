@@ -1,7 +1,10 @@
 #!/usr/bin/php
 <?php
 
-    if ($argc == 1)
+    if ($argc < 2)
         die();
-    echo trim(preg_replace("/[\s\t]+/", " ", $argv[1]), " \t"), "\n";
+    $out =  trim(preg_replace("/[ \t]+/", " ", $argv[1]), " \t");
+    echo $out;
+    if ($out)
+        echo "\n";
 ?>
