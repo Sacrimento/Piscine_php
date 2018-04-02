@@ -20,8 +20,7 @@
 
     $array = unserialize(file_get_contents("../private/passwd"));
     $modified = false;
-//    print_r($array);
-    foreach ($array as $el)
+    foreach ($array as &$el)
     {
         if ($el['login'] === $login)
         {
